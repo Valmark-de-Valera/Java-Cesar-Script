@@ -6,7 +6,7 @@ public class Main {
         System.out.println("Message: " + data);
 
         // Set key //
-        CesarScript.setKey("43");
+        CesarScript.setKey("-15");
 
         // Encryption process //
         data = CesarScript.encryptCesar(data);
